@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>LPU|Hostel Management System</title>
+
+</head>
+<link href="hms.css" type="text/css" rel="stylesheet">
+
+<body background="bg.jpg">
+
+<div class="header">
+    <img src=logo.jpg alt="logo" />
+    <h1><u><b>Hostel Management System</u></b></h1>
+
+<div class="header-right">
+                           <a class="active" href="hms.html">Back to Home</a>
+</div>
+                    </div>
+
+<script>
+function register() {
+   return alert('Account Created Successfully');
+}
+</script>
+
+
+<form onsubmit="return register(this);" >
+  <div class="container">
+    <h1><u><b>New Registration</b></u></h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <hr>
+
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+
+  <div class="container signin">
+    <p>Already have an account? <a href="#">Sign in</a>.</p>
+  </div>
+</form>
+<div class="bottom">
+&copy; Hostel Management System, site designed & developed by Sanchay Swaraj, Akshay Kumar & Arjun Reddy
+</div>
+
+</body>
+</html>
